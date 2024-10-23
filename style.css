@@ -1,0 +1,55 @@
+
+.container {
+    flex-direction: column;
+    text-align: center;
+    margin: 10em auto;
+    color: #ffffff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 1em;
+    background-color:  #141313;
+    max-width: 25em;
+    max-height: 50em;
+    padding: 2em;
+}
+
+#name {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+#adress {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 1em;
+    color: #1aa336;
+}
+
+#perfil {
+    font-style: italic;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+img {
+    border-radius: 13em;
+    padding: 1em;
+    max-width: 150px;
+    max-height: 150px;
+}
+
+.tags {
+    padding: 1em;
+}
+
+.tag, a {
+    background-color: #404040;
+    color: white;
+    padding: .6em;
+    margin: .7em;
+    min-width: 17em;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+tag, a:hover {
+    color: white;
+}
